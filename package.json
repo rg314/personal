@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "3.0.1",
-  "homepage": "https://rg314.github.io/ryan_cv/",
+  "homepage": "https://rg314.github.io/personal/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://rg314.github.io/ryan_cv/"
+    "url": "https://rg314.github.io/personal/"
   },
   "scripts": {
     "build": "rimraf ./build && react-scripts build",
