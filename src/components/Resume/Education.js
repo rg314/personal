@@ -14,7 +14,7 @@ const Education = ({ data }) => (
         data={degree}
         key={degree.school}
       />
-      ))}
+    ))}
   </div>
 );
 
@@ -22,8 +22,8 @@ Education.propTypes = {
   data: PropTypes.arrayOf(PropTypes.shape({
     school: PropTypes.string,
     degree: PropTypes.string,
-    year: PropTypes.string,
-    points: PropTypes.arrayOf(PropTypes.string).isRequired,
+    link: PropTypes.string,
+    year: PropTypes.number,
   })),
 };
 
